@@ -11,5 +11,6 @@ int main(){
         base *= 2;
     }
     cout<<"Decimal representation of given binary is "<<decimal<<"\n";
+    cout<<"Program End";
     return 0;
 }
