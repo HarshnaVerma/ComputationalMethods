@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     string binary = "";
-    long long int decimal = 0, temp;
+    long float decimal = 0, temp;
     cout<<"Enter Decimal Number : ";
     cin>>decimal;
     while(decimal){
@@ -11,7 +11,7 @@ int main(){
         binary = (char)temp + binary;
         decimal /= 2;
     }
-    cout<<"Binary representation of given decimal is "<<binary<<"\n";
+    cout<<"Converted Binary number is : "<<binary<<"\n";
     return 0;
 }
 
