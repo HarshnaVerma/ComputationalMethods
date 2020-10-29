@@ -7,10 +7,10 @@ int main(){
     cout<<"Enter Binary Number : ";
     cin>>binary;
     for(int i = binary.size()-1 ; i >= 0; i--){
-        decimal += base*(binary[i] - '0');
+        decimal = decimal + base*(binary[i] - '0');
         base *= 2;
     }
-    cout<<"Decimal representation of given binary is "<<decimal<<"\n";
+    cout<<"Converted decimal Number is "<<decimal<<"\n";
     cout<<"Program End";
     return 0;
 }
